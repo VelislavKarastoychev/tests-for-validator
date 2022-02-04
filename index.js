@@ -1,6 +1,6 @@
 'use strict'
-import {header, error_message, success_message} from './Messages'
-import {tests} from './Tests'
+import {header, error_message, success_message} from './Messages/index.js';
+import {tests} from './Tests/index.js';
 let printer = header('@euriklis/validator testing message')
 Promise.all(tests)
 .then((tests) => {
