@@ -1,6 +1,6 @@
 'use strict'
-import validator from '@euriklis/validator'
-import { success_message } from '../Messages'
+import validator from '@euriklis/validator';
+import { success_message } from '../Messages/index.js';
 const testIsSameWithAny = new Promise((resolve, reject) => {
     new validator(123).is_same_with_any([12, 21, 34, 1432, 123, 'duhdu', true, []])
         .on(true, () => success_message('is_same_with_any first test successful', 'yellow').log())
