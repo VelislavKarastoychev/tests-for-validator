@@ -25,6 +25,7 @@ import { testIsObject } from './testIsObject.js';
 import { testIsStringArray } from './testIsStringArray.js';
 import { testIsFunction } from './testIsFunction.js';
 import { testForAny } from "./testForAny.js";
+import { testIsArrayAndForEvery } from './testIsArrayAndForEvery.js';
 export const tests = [
     test_integer,
     testIsBoolean,
@@ -43,4 +44,5 @@ export const tests = [
     testIsStringArray,
     testIsFunction,
     testForAny,
-]
+    testIsArrayAndForEvery,
+];
