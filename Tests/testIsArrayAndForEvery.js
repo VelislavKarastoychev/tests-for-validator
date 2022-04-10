@@ -5,9 +5,9 @@ const testIsArrayAndForEvery = new Promise((resolve, reject) => {
     const alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVYXWZ0123456789@';
     const length = alphabet.length;
     const random_array = Array.from({ length: 20 }).map(Math.random);
-    const random_string_array = Array.from({ length }).map(el => el = length * Math.random() | 0);
+    const random_string_array = Array.from({ length }).map(el => el = alphabet[length * Math.random() | 0]);
     new validator(random_array)
-        .is_array_and_for_every((element) => element.isInteger.And.is_in_range(0, 1))
+        .is_array_and_for_every((element) => element.Not.isInteger.And.is_in_range(0, 1))
         .on(true, () => printer.success_message("Successfully tested is_array_and_for_every() --> test №1").log())
         .on(false, () => printer.error_message("Error in the first test of the is_array_and_for_every() method.").log())
         .And.bind(
