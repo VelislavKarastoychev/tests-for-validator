@@ -6,7 +6,7 @@ const testForAll2 = new Promise((resolve, reject) => {
     try {
         answer = new validator([2, 6]).isNumberArray.And.for_all(element => element.is_integer()).answer;
         if (answer === true) {
-            printer.success_message('Successfully second test for the for_all method of the library.').log();
+            printer.success_message('Successfully second test for the for_all method of the library.', "yellow").log();
             resolve("for_all --> 2")
         } else {
             printer.error_message('Failed to test the for_all method...').log();
