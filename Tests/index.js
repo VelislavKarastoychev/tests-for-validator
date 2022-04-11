@@ -26,6 +26,8 @@ import { testIsStringArray } from './testIsStringArray.js';
 import { testIsFunction } from './testIsFunction.js';
 import { testForAny } from "./testForAny.js";
 import { testIsArrayAndForEvery } from './testIsArrayAndForEvery.js';
+import { testIsArrayAndForAny } from './testIsArrayAndForAny.js';
+import { testContains } from './testContains.js';
 export const tests = [
     test_integer,
     testIsBoolean,
@@ -45,4 +47,6 @@ export const tests = [
     testIsFunction,
     testForAny,
     testIsArrayAndForEvery,
+    testIsArrayAndForAny,
+    testContains,
 ];
