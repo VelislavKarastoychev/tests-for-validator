@@ -12,8 +12,8 @@
     "license": "ISC",
     "bin": "./index.js",
     "dependencies": {
-        "@euriklis/message": "^2.0.0",
-        "@euriklis/validator": "^2.1.0"
+        "@euriklis/message": "^2.0.2",
+        "@euriklis/validator": "^2.1.3"
     },
     "devDependencies": {
         "eslint": "^7.32.0",
