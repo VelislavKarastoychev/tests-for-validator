@@ -13,7 +13,7 @@
     "bin": "./index.js",
     "dependencies": {
         "@euriklis/message": "^2.0.2",
-        "@euriklis/validator": "^2.1.3"
+        "@euriklis/validator": "github:VelislavKarastoychev/euriklis-validator"
     },
     "devDependencies": {
         "eslint": "^7.32.0",
