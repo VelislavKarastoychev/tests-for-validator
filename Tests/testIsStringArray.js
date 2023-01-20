@@ -4,7 +4,10 @@ import * as print from '../Messages/index.js';
 const method = "is_string_array() or isStringArray";
 const testIsStringArray = new Promise((resolve, reject) => {
     new validator(["this", "is", "string", "array"]).is_string_array()
-        .on(true, () => {
+    .And.bind(
+        new validator(['this', 'is', 'string array.']).isStringArray
+    )    
+    .on(true, () => {
             print.success_message("is_string_array() first test successful", "yellow").log();
         }).on(false, () => {
             print.error_message("Inconsistent results in the first test of the is_string_array() method.").log();
