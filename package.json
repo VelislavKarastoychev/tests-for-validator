@@ -1,25 +1,28 @@
 {
-    "name": "@euriklis/tests-for-validator",
-    "version": "2.1.2",
-    "description": "",
-    "type": "module",
-    "main": "index.js",
-    "scripts": {
-        "test": "validator Tests",
-        "start": "node index.js"
-    },
-    "author": "Euriklis <euriklis@hotmail.com>",
-    "license": "ISC",
-    "dependencies": {
-        "@euriklis/message": "^2.0.2",
-        "@euriklis/validator": "github:VelislavKarastoychev/euriklis-validator"
-    },
-    "devDependencies": {
-        "eslint": "^7.32.0",
-        "eslint-config-standard": "^16.0.3",
-        "eslint-plugin-import": "^2.25.4",
-        "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-promise": "^5.2.0",
-        "nodemon": "^2.0.7"
-    }
+  "name": "@euriklis/tests-for-validator",
+  "version": "2.1.2",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "tests-for-validator": "index.js"
+  },
+  "scripts": {
+    "test": "validator Tests",
+    "start": "node index.js"
+  },
+  "author": "Euriklis <euriklis@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@euriklis/message": "^2.0.2",
+    "@euriklis/validator": "github:VelislavKarastoychev/euriklis-validator"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "nodemon": "^2.0.7"
+  }
 }

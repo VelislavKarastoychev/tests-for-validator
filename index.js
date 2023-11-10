@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 "use strict";
 import {exec} from "child_process";
 
