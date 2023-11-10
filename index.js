@@ -1,7 +1,7 @@
 "use strict";
 import {exec} from "child_process";
 
-exec("npm start", (error, stout, stderr) => {
+exec("validator Tests", (error, stout, stderr) => {
   if (error) {
     console.log(error);
     return;

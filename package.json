@@ -6,7 +6,7 @@
     "main": "index.js",
     "scripts": {
         "test": "validator Tests",
-        "start": "validator Tests"
+        "start": "node index.js"
     },
     "author": "Euriklis <euriklis@hotmail.com>",
     "license": "ISC",
