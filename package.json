@@ -5,12 +5,11 @@
     "type": "module",
     "main": "index.js",
     "scripts": {
-        "test": "node index.js",
-        "start": "nodemon index.js"
+        "test": "validator Tests",
+        "start": "validator Tests"
     },
     "author": "Euriklis <euriklis@hotmail.com>",
     "license": "ISC",
-    "bin": "./index.js",
     "dependencies": {
         "@euriklis/message": "^2.0.2",
         "@euriklis/validator": "github:VelislavKarastoychev/euriklis-validator"
